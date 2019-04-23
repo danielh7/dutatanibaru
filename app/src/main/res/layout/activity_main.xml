@@ -6,6 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maps"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnMaps"/>
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
